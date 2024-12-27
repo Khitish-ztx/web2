@@ -89,3 +89,6 @@ a{
     text-decoration: solid;
     color: lightseagreen;
 }
+::placeholder{
+  color: white;
+}

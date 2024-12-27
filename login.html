@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="box">
+            <h2>LOGIN</h2>
+            <div class="img"><img src="rav.png" alt="" height="15%" width="15%"></div>
+            <form action="#">
+                <input type="text" class="input" id="username" placeholder="username" required><i class="ri-admin-line"></i>
+                
+                   
+                <input type="password" class="input" id="password" placeholder="password" required><i class="ri-lock-line"></i>
+            </form>
+            <p>Forgot password?</p>
+            <button onclick="login()">Login</button>
+            <p id="len">not a member ?<a href="sign.html" target="_self"> sign up</a></p>
+
+        </div>
+    <div class="pop">
+        <div class="popitem">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/e13a95d1-db73-4a46-a5b4-23f15852e275/RtgEdC4dBC.json" background="##FFFFFF" speed="1" style="width: 80px; height: 90px" loop  autoplay direction="1" mode="normal" id="play"></lottie-player>
+           <h1 id="popmsg"> login was succesfull for this account</h1>
+           <button id="popbtn">Continue</button>
+        </div>
+    </div>
+<script src="login.js"></script>
+</body>
+</html>

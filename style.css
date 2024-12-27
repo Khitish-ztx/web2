@@ -154,10 +154,12 @@ button {
   .left p {
     font-size: 4vw;
     width: 100%;
+
   }
 
   button {
     font-size: 4vw;
+    color: white;
   }
 }
 
@@ -166,7 +168,10 @@ button {
   width: 100%;
   background-color: antiquewhite;
 }
+
 a{
+  color:white;
   text-decoration: none;
-  color: azure;
 }
+
+
