@@ -22,7 +22,7 @@ function login(){
     }
     else{
         let popitem=document.querySelector("#popmsg")
-        let tickplay=document.querySelector("#play")
+        let tickplay=document.querySelector(".play")
         tickplay.innerHTML="<h1 color='red'> Error Fetching data!! <h1>"
         popitem.innerHTML="Incorrect userame and password for this Account"
         popbtn.innerHTML="Try Again"

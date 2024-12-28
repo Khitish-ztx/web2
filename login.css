@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -153,15 +152,20 @@ img{
   font-size: 10px;
   font-weight: 100;
   padding-top: 40px;
+  padding-top: 0%;
+
 }
 h1{
   font-weight: 300;
+  padding-top: 20px;
 }
-#play{
-  position: relative;
-  top: 0;
-  left: 42%;
-  bottom: 100%;
+.play{
+  position:relative;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
 
 }
 #popbtn{
@@ -174,112 +178,8 @@ h1{
   cursor: block;
 
 }
-@media (max-width:400px){
-  .popitem{
-
-    height: 60vh;
-    width: 50vh;
-
-  }
-  #play{
-    left: 42%;
-    bottom: 100%;
-
-  }
-  h1{
-    margin-top: 50px;
-  }
-  
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, body {
-    width: 100%;
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
-    background-size: 100% 740px;
-    background-image: url(testi.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .content{
-    width: 400px;
-    height: 450px;
-    text-align: center;
-    color: white;
-    position: relative;
-    background-color:transparent;
-    display: flex;
-
-
-
-  
-    
-  }
-  .box{
-    background-color: rgb(0, 0, 0,0.5);
-    height: 94%;
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: rgb(0, 0, 0,0.5);
-
-  }
-.input{
-  background-color: transparent;
-  width: 200px;
-  height: 49px;
-  border: none;
-  border-bottom: 2px solid #dadada;
-  font-size: 16px;
-  margin-top: 40px;
-  color: rgb(255, 255, 255);
-  
-  
-}
-p{
-  margin-top: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  
-}
-button{
-  margin-top: 20px;
-  width: 200px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
-  color: turquoise;
-  font-size: 18px;
-  font-weight: 900;
-}
-#len{
-  margin-top: 10px;
-  text-wrap: wrap;
-}
-h2{
-  padding-top: 20px;
-}
-button:hover{
+#popbtn:hover{
   background-color: lightseagreen;
-  border: 2px solid white;
-  cursor: pointer;
   color: white;
-  cursor: not-allowed;
-
-
-}
-span{
-  color: lightseagreen;
   cursor: pointer;
-}
-a{
-  text-decoration: none;
-  color: lightseagreen;
->>>>>>> e32a94fc44d3170e5f2f332589792427f739712b
 }

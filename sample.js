@@ -6,3 +6,10 @@ setTimeout(function(){
     
 
 },1400)
+const vid=document.querySelector("#vid");
+vid.addEventListener("play",function(){
+    if(vid.requestFullscreen){
+        vid.requestFullscreen();
+    }
+
+});
