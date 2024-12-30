@@ -7,6 +7,7 @@ let passError = document.getElementById("passError");
 const realuser=1234
 const realpass=69
 
+
 function login() {
     let hasError = false;
 
@@ -34,6 +35,8 @@ function login() {
         pop.style.visibility = "visible";
         popbtn.addEventListener("click", function() {
             window.location = "sample.html";
+            pop.style.visibility = "hidden";
+            
         });
     } 
     else {

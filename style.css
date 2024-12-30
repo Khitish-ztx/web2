@@ -74,6 +74,16 @@ html, body {
 
 .left span {
   color: #ff735c;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+
+
+}
+span:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  margin-left: 6px;
+
 }
 
 .left p {
@@ -109,12 +119,19 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .right img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  display: block;
+  transition: all ease-in-out 1s;
+}
+.right img:hover{
+  scale:1.1;
+  transition: all ease-in-out 1s;
 }
 
 /* Mobile Responsiveness */
