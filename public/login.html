@@ -12,14 +12,14 @@
         <div class="box">
             <h2>LOGIN</h2>
             <div class="img"><img src="rav.png" alt="" height="15%" width="15%"></div>
-            <form action="#">
-                <input type="text" class="input" id="username" placeholder="username" required>
+            <form action="/login" method="POST" id="loginForm">
+                <input type="text" name="username" class="input" id="username" placeholder="username" required>
                 <span id="userError" style="color: red; display: none;">*required username</span>
-                <input type="password" class="input" id="password" placeholder="password" required>
+                <input type="password" name="password"  class="input" id="password" placeholder="password" required>
                 <span id="passError" style="color: red; display: none;">*required password</span>
+                <button type="submit">Login</button>
             </form>
             <p>Forgot password?</p>
-            <button onclick="login()">Login</button>
             <p id="len">not a member ?<a href="sign.html" target="_self"> sign up</a></p>
         </div>
     <div class="pop">
@@ -29,6 +29,7 @@
            <button id="popbtn">Continue</button>
         </div>
     </div>
-<script src="login.js"></script>
+
+<script src="loginuser.js"></script>
 </body>
 </html>

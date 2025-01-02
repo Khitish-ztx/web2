@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="box">
+            <h2>SIGN UP</h2>
+            <form action="/signup" method="POST" id="signupform">
+                <input type="text" class="input" name="username" placeholder="username" required><i class="ri-admin-line"></i>
+                
+                   
+                <input type="password" class="input" name="password" placeholder="password" required><i class="ri-lock-line"></i>
+                <input type="password" class="input" name="confirmpassword" placeholder="confirm password" required><i class="ri-lock-line"></i>
+
+            </form>
+            <button onclick="signup()">Sign Up</button>
+            <p>Already have an account? <a href="login.html" target="_self">Login</a></p>
+        </div>
+    </div>
+<script>
+    function signup() {
+            document.getElementById('signupform').submit();
+    
+        }
+</script>
+    
+</body>
+</html>
