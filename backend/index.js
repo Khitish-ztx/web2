@@ -13,7 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../public')));
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://khitish152006:1234@cluster0.q9vmk.mongodb.net/LOGUSERS')
+mongoose.connect('mongodb+srv://khitish152006:1234@cluster0.q9vmk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+')
     .then(() => {
         console.log("MongoDB Connected");
     })
